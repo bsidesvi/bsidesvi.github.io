@@ -570,6 +570,29 @@ div.col-lg-12.font-dark {
 }
 
 /*---------------------
+  Organizer Section
+-----------------------*/
+
+.organizer-section {
+	padding-top: 10em;
+	background: -webkit-gradient(linear, left bottom, right bottom, from(var(--theme-grey)), to(var(--theme-white)));
+	background: linear-gradient(to top right, var(--theme-grey), var(--theme-white));
+	padding-bottom: 3em;
+}
+
+.organizer-section p {
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+.organizer-section .organizer-img {
+	padding: 3em;
+	background: var(--theme-white);
+	-webkit-clip-path: polygon(2% 0, 98% 0%, 100% 2%, 100% 98%, 98% 100%, 2% 100%, 0% 98%, 0 2%);
+	clip-path: polygon(2% 0, 98% 0%, 100% 2%, 100% 98%, 98% 100%, 2% 100%, 0% 98%, 0 2%);
+}
+
+/*---------------------
   Speakers Section
 -----------------------*/
 
