@@ -590,6 +590,7 @@ div.col-lg-12.font-dark {
 	background: var(--theme-white);
 	-webkit-clip-path: polygon(2% 0, 98% 0%, 100% 2%, 100% 98%, 98% 100%, 2% 100%, 0% 98%, 0 2%);
 	clip-path: polygon(2% 0, 98% 0%, 100% 2%, 100% 98%, 98% 100%, 2% 100%, 0% 98%, 0 2%);
+	filter: grayscale(100%);
 }
 
 /*---------------------
