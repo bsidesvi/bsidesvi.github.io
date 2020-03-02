@@ -11,12 +11,22 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
 
+    <!-- Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css" integrity="sha256-LEgFChKAs47ma0Ei3DD3uNDYl3bID3byE9ypWOcB9F0=" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <!-- Scripts required instantly -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript"> 
+        $(function(){
+          $("header, .header-section").load("header.html");
+          $("footer, .footer-section").load("footer.html"); 
+        });
+    </script>
 </head>
 
 <body>
@@ -25,44 +35,8 @@
         <div class="loader"></div>
     </div>
 
-    <!-- Header Section Begin -->
-    <header class="header-section">
-        <div class="container-fluid">
-            <div class="row bg-overlay">
-                <div class="header">
-                    <div class="col-lg-12">
-                        <div class="logo">
-                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
-                        </div>
-                        <div class="navigation mobile-menu">
-                            <div class="main-menu">
-                                <nav>
-                                    <ul>
-                                        <li><a class="active" href="./index.html">Home</a></li>
-                                        <li><a href="https://communityinviter.com/apps/visrs/visrs" target="_blank">Join our Slack</a></li>
-                                        <li><a href="#subscribe">Subscribe</a></li>
-                                        <li><a href="#contact">Contact</a></li>
-                                        <li><a href="./about.html">About</a></li>
-                                        <!--<li><a href="./speakers.html">Speakers</a></li>
-                                        <li><a href="./tickets.html">Tickets</a></li>-->
-                                    </ul>
-                                </nav>
-                            </div>
-                            <div class="top-social">
-                                <a href="https://www.twitter.com/bsidesvi" target="_blank"><i class="fa fa-twitter"></i></a>
-                                <a href="https://communityinviter.com/apps/visrs/visrs" target="_blank"><i class="fa fa-slack"></i></a>
-                                <a href="https://www.instagram.com/bsidesvi" target="_blank"><i class="fa fa-instagram"></i></a>
-                                <a href="https://linkedin.com/company/visrs" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                <!--<a href="#" class="search-btn search-trigger"><i class="fa fa-search"></i></a>-->
-                            </div>
-                        </div>
-                        <div id="mobile-menu-wrap"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- Header End -->
+    <!-- Injected -->
+    <header class="header-section"></header>
 
     <!-- Hero Area Begin -->
     <div class="hero-section">
@@ -168,52 +142,10 @@
     </section>
     <!-- Subscribe Form End -->
 
-    <!-- Footer Begin -->
-    <footer class="footer-section">
-        <div class="container">
-            <div class="row pb-70">
-                <div class="col-lg-3 col-md-6">
-                    <div class="links-widget">
-                        <h4>Links</h4>
-                        <ul>
-                            <li><a href="https://www.visrs.ca" target="_blank">Vancouver Island Security Research Society</a></li>
-                            <li><a href="https://conduct.bsidesvi.com">Conference Code of Conduct</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="contact-widget">
-                        <h4 id="contact">Contact</h4>
-                        <ul>
-                            <li><i class="fa fa-map-marker"></i><span>312-1834C Oak Bay Avenue</span><span>Victoria BC, V8R 0A4</span></li>
-                            <li><i class="fa fa-envelope-o"></i><span><a href="mailto:info@bsidesvi.com" target="_blank">info@bsidesvi.com</a></span></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="copyright-text">
-                            <div class="copyright">&copy; <script>document.write(new Date().getFullYear());</script> Vancouver Island Security Research Society | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></div>
-                            <div class="footer-social">
-                                <a href="https://twitter.com/bsidesvi" target="_blank"><i class="fa fa-twitter"></i></a>
-                                <a href="https://communityinviter.com/apps/visrs/visrs" target="_blank"><i class="fa fa-slack"></i></a>
-                                <a href="https://www.instagram.com/bsidesvi" target="_blank"><i class="fa fa-instagram"></i></a>
-                                <a href="https://linkedin.com/company/visrs" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Footer End -->
+    <!-- Injected -->
+    <footer class="footer-section"></footer>
     
     <!-- Js Plugins -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js" integrity="sha256-h/TwuBQqRBiExw0sK/HdwzJI7uYFBrJ2Ebo7gn9AGz4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
