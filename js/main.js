@@ -1,7 +1,6 @@
 'use strict';
 
 (function ($) {
-    
     /*------------------
         Preloader
     --------------------*/
@@ -16,40 +15,6 @@
     $('.set-bg').each(function () {
         var bg = $(this).data('setbg');
         $(this).css('background-image', 'url(' + bg + ')');
-    });
-
-    /*------------------
-		Search Bar Wrap
-	--------------------*/
-    $(".search-trigger").on('click', function() {
-        $(".search-bar-wrap").addClass("active");
-    });              
-
-
-    $(".search-close").on('click', function() {
-        $(".search-bar-wrap").removeClass("active");
-    });
-
-    $(".social-widget-btn").on('click', function() {
-        $(".top-social-links").addClass(".active");
-    });
-
-
-    /*------------------
-        Carousel Slider
-    --------------------*/
-    var hero_s = $(".hero-items");
-    hero_s.owlCarousel({
-        loop: true,
-        margin: 0,
-        nav: false,
-        items: 1,
-        dots: true,
-        animateOut: 'fadeOut',
-    	animateIn: 'fadeIn',
-        navText: ['<i class="flaticon-left-arrow-1"></i>', '<i class="flaticon-right-arrow-1"></i>'],
-        smartSpeed: 1200,
-        autoplay: true,
     });
 
     /*------------------
@@ -120,7 +85,4 @@
 		}
 
 	});
-
-
-
 })(jQuery);
