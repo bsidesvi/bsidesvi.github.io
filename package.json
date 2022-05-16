@@ -1,0 +1,24 @@
+{
+  "name": "bsidesvi.github.io",
+  "version": "1.0.0",
+  "description": "public site for Vancouver Island BSides Security Conference",
+  "main": "devserver.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsidesvi/bsidesvi.github.io.git"
+  },
+  "keywords": [
+    "security",
+    "infosec",
+    "bsides"
+  ],
+  "author": "visrs.ca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bsidesvi/bsidesvi.github.io/issues"
+  },
+  "homepage": "bsidesvi.com",
+  "devDependencies": {
+    "express": "^4.18.1"
+  }
+}
