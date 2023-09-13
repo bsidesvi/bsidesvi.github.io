@@ -848,7 +848,78 @@ div.col-lg-12.font-dark {
 	top: 0;
 	right: 63px;
 }
+/*---------------------
+  Sponsor Section
+-----------------------*/
 
+.sponsor  {
+	padding-top: 85px;
+	background: var(--theme-turquoise);
+	opacity: 0.75;
+}
+
+.sponsor .section-title h2 {
+	color: #fff;
+	margin-bottom: -60px;
+}
+
+.sponsor p {
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+
+.sponsor .subs-form {
+	position: relative;
+}
+
+.sponsor .subs-form input {
+	border: 2px solid #F1F1F1;
+	border-radius: 6px;
+	background: transparent;
+	color: #fff;
+	font-size: 18px;
+	display: inline-block;
+	height: 62px;
+	width: 830px;
+	padding-left: 35px;
+}
+
+.sponsor .subs-form input::-webkit-input-placeholder {
+	color: #fff;
+	font-style: italic;
+	opacity: 0.35;
+}
+
+.sponsor .subs-form input::-moz-placeholder {
+	color: #fff;
+	font-style: italic;
+	opacity: 0.35;
+}
+
+.sponsor .subs-form input:-ms-input-placeholder {
+	color: #fff;
+	font-style: italic;
+	opacity: 0.35;
+}
+
+.sponsor .subs-form input::-ms-input-placeholder {
+	color: #fff;
+	font-style: italic;
+	opacity: 0.35;
+}
+
+.sponsor .subs-form input::placeholder {
+	color: #fff;
+	font-style: italic;
+	opacity: 0.35;
+}
+
+.sponsor .subs-form button {
+	position: absolute;
+	top: 0;
+	right: 63px;
+}
 /*---------------------
   Footer
 -----------------------*/
