@@ -854,8 +854,7 @@ div.col-lg-12.font-dark {
 
 .sponsor  {
 	padding-top: 85px;
-	background: -webkit-gradient(linear, left top, right top, from(var(--theme-coal)), to(var(--theme-teal)));
-	background: linear-gradient(to right, var(--theme-coal), var(--theme-teal));
+	background: var(--theme-turquoise);
 	opacity: 0.75;
 }
 
