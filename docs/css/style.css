@@ -596,31 +596,44 @@ div.col-lg-12.font-dark {
 /*---------------------
   Speakers Section
 -----------------------*/
-
 .speaker-section {
-	padding-top: 85px;
+	padding-top: 10em;
+	background: -webkit-gradient(linear, left bottom, right bottom, from(var(--theme-grey)), to(var(--theme-white)));
+	background: linear-gradient(to top right, var(--theme-grey), var(--theme-white));
+	padding-bottom: 3em;
 }
 
-.speakers-about {
-	margin-bottom: 65px;
+.speaker-section p {
+	padding-left: 3em;
+	padding-right: 3em;
 }
 
-.speakers-about .speaker-img {
-	margin-bottom: 22px;
+.speaker-img {
+	padding: 3em;
+	background: var(--theme-white);
+	-webkit-clip-path: polygon(2% 0, 98% 0%, 100% 2%, 100% 98%, 98% 100%, 2% 100%, 0% 98%, 0 2%);
+	clip-path: polygon(2% 0, 98% 0%, 100% 2%, 100% 98%, 98% 100%, 2% 100%, 0% 98%, 0 2%);
+	filter: grayscale(100%);
 }
 
-.speakers-about .speaker-img img {
+.speaker-img img {
 	border-radius: 6px;
 	min-width: 100%;
 }
-
-.speakers-about .speaker-text h3 {
+.speaker-text h2 {
+	color: #272727;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 72px;
+	margin-bottom: 17px;
+}
+.speaker-text h3 {
 	color: #272727;
 	font-size: 30px;
 	font-weight: 900;
 }
 
-.speakers-about .speaker-text h3 span {
+.speaker-text h3 span {
 	font-size: 18px;
 	font-weight: 400;
 	display: block;
