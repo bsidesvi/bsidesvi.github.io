@@ -864,8 +864,9 @@ div.col-lg-12.font-dark {
 	margin-bottom: -60px;
 }
 
-.sponsor p {
+.sponsor .section-logos {
 	color: #fff;
+        text-align: center;
         padding-top: 65px;
 	font-size: 18px;
 	margin-bottom: 40px;
