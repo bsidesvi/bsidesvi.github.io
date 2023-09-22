@@ -620,6 +620,11 @@ div.col-lg-12.font-dark {
 	border-radius: 6px;
 	min-width: 100%;
 }
+.speaker-img name {
+	color: #3aa1b2;
+	text-align: center;
+	font-weight: bold;
+}
 .speaker-text h2 {
 	color: #272727;
 	font-size: 60px;
