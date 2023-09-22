@@ -602,12 +602,10 @@ div.col-lg-12.font-dark {
 	background: linear-gradient(to top right, var(--theme-grey), var(--theme-white));
 	padding-bottom: 3em;
 }
-
 .speaker-section p {
 	padding-left: 3em;
 	padding-right: 3em;
 }
-
 .speaker-img {
 	padding: 3em;
 	background: var(--theme-white);
@@ -615,12 +613,11 @@ div.col-lg-12.font-dark {
 	clip-path: polygon(2% 0, 98% 0%, 100% 2%, 100% 98%, 98% 100%, 2% 100%, 0% 98%, 0 2%);
 	filter: grayscale(100%);
 }
-
 .speaker-img img {
 	border-radius: 6px;
 	min-width: 100%;
 }
-.speaker-img name {
+.speaker-img table {
 	color: #3aa1b2;
 	text-align: center;
 	font-weight: bold;
