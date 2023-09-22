@@ -618,20 +618,22 @@ div.col-lg-12.font-dark {
 	min-width: 100%;
 }
 .speaker-img table {
-	color: #3aa1b2;
+	color: #272727;
 	text-align: center;
 	font-weight: bold;
 }
 .speaker-text h2 {
 	color: #272727;
-	font-size: 60px;
+	text-align: center;
+	font-size: 700px;
 	font-weight: 700;
 	line-height: 72px;
 	margin-bottom: 17px;
 }
 .speaker-text h3 {
 	color: #272727;
-	font-size: 30px;
+	text-align: center;
+	font-size: 50px;
 	font-weight: 900;
 }
 
