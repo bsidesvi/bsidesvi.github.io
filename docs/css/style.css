@@ -622,7 +622,7 @@ div.col-lg-12.font-dark {
 	text-align: center;
 	font-weight: bold;
 }
-.speaker-text h2 {
+.speaker-text-title {
 	text-align: center;
 	text-transform: uppercase;
 	color: #272727;
@@ -631,7 +631,7 @@ div.col-lg-12.font-dark {
 	line-height: 72px;
 	margin-bottom: 17px;
 }
-.speaker-text h3 {
+.speaker-text-section {
         text-align: center;
 	text-transform: uppercase;
 	color: #272727;
@@ -639,15 +639,6 @@ div.col-lg-12.font-dark {
 	font-size: 50px;
 	font-weight: 900;
 }
-
-.speaker-text h3 span {
-        text-align: center;
-	font-size: 18px;
-	font-weight: 400;
-	display: block;
-	margin-top: 10px;
-}
-
 /*---------------------
   Workshop Area
 -----------------------*/
