@@ -613,6 +613,23 @@ div.col-lg-12.font-dark {
 	clip-path: polygon(2% 0, 98% 0%, 100% 2%, 100% 98%, 98% 100%, 2% 100%, 0% 98%, 0 2%);
 	filter: grayscale(100%);
 }
+.speaker-img ul {
+    font-size: 16px;
+    padding-left: 6em;
+    padding-right: 6em;
+	color: #484848;
+	font-weight: 400;
+	line-height: 30px;
+	margin: 0 0 15px 0;
+}
+.speaker-img h2 {
+    text-align: center;
+	color: #30baaa;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 72px;
+	margin-bottom: 17px;
+}
 .speaker-img img {
 	border-radius: 6px;
 	min-width: 100%;
