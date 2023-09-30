@@ -605,6 +605,11 @@ div.col-lg-12.font-dark {
 .speaker-section p {
 	padding-right: 3em;
 }
+.speaker-section i {
+    font-size: 11px;
+    padding-left: 1em;
+	padding-right: 1em;
+}
 .speaker-img {
 	padding: 3em;
 	background: var(--theme-white);
